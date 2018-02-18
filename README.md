@@ -1,3 +1,4 @@
+![](logo.png)
 # Timer
 This is a timer module for the [Defold game engine](http://www.defold.com).
 
@@ -11,11 +12,11 @@ https://github.com/britzl/defold-timer/archive/master.zip
     local id = timer.seconds(1.5, function(self, id)
       print("I will be called once, unless I'm cancelled")
     end)
-    
+
     local id = timer.repeating(2.5, function(self, id)
       print("I will be called repeatedly, until cancelled")
     end)
-    
+
     timer.cancel(id)
     timer.cancel_all()
 
