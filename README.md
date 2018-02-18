@@ -18,6 +18,3 @@ https://github.com/britzl/defold-timer/archive/master.zip
     
     timer.cancel(id)
     timer.cancel_all()
-
-## Limitations
-The Timer module is available for all platforms that are currently supported by [Native Extensions](http://www.defold.com/manuals/extensions/).
