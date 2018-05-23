@@ -302,6 +302,10 @@ dmExtension::Result UpdateTimerExtension(dmExtension::Params* params) {
 }
 
 dmExtension::Result FinalizeTimerExtension(dmExtension::Params* params) {
+	while(!g_Timers.Empty()) {
+		Timer* timer = g_Timers.Back();
+		Remove(timer->id);
+	}
 	return dmExtension::RESULT_OK;
 }
 
