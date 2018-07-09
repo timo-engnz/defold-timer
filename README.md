@@ -1,7 +1,7 @@
 ![](logo.png)
 
 # IMPORTANT INFORMATION ABOUT THIS EXTENSION!
-The extension previously used the `timer` module name, but since Defold 1.2.131 there's a native timer that clashes with this extension. The extension has since been changed to use `delay` as a module name instead.
+The extension previously used the `timer` module name, but since Defold 1.2.130 there's a native timer that clashes with this extension. The extension has since been changed to use `delay` as a module name instead.
 
 # Delay
 This is a timer/delay module for the [Defold game engine](http://www.defold.com). Use it to either delay a function call once or call a function repeatedly with an interval.
