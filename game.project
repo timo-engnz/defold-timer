@@ -1,5 +1,5 @@
 [project]
-title = Timer
+title = Delay
 dependencies = https://github.com/andsve/dirtylarry/archive/master.zip
 
 [bootstrap]
@@ -35,11 +35,11 @@ launch_image_1024x768 =
 launch_image_1242x2208 = 
 launch_image_2208x1242 = 
 launch_image_2048x1536 = 
-bundle_identifier = com.britzl.timer
+bundle_identifier = com.britzl.delay
 app_icon_167x167 = 
 
 [osx]
-bundle_identifier = com.britzl.timer
+bundle_identifier = com.britzl.delay
 
 [android]
 app_icon_36x36 = 
@@ -48,8 +48,8 @@ app_icon_72x72 =
 app_icon_96x96 = 
 app_icon_144x144 = 
 app_icon_192x192 = 
-package = com.britzl.timer
+package = com.britzl.delay
 
 [library]
-include_dirs = timer
+include_dirs = delay
 
